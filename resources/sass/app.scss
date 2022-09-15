@@ -1,0 +1,14 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~admin-lte/build/scss/adminlte';
+
+.sidebar
+{
+    overflow-y: unset!important;
+}
+tr{
+    text-align: center;
+}
+@import '~admin-lte/plugins/datatables-bs4/css/dataTables.bootstrap4.css';
